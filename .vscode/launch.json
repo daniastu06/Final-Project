@@ -1,14 +1,26 @@
 {
-  "version": "0.2.0",
+"version": "0.2.0",
   "configurations": [
     {
       "type": "java",
-      "name": "Run JavaFX",
+      "name": "BudgetTracker",
       "request": "launch",
-      "mainClass": "${file}",
-      "cwd": "${workspaceFolder}",
-      "console": "integratedTerminal",
-      "vmArgs": "--module-path \"C:/Users/AHedhli/Downloads/openjfx-27.0.1_windows-x64_bin-sdk (1)/javafx-sdk-27.0.1/lib\" --add-modules javafx.controls"
+      "mainClass": "BudgetTracker",
+      "projectName": "cmp129-week12-lab01"
+    },
+    {
+      "type": "java",
+      "name": "TrackerApp",
+      "request": "launch",
+      "mainClass": "TrackerApp",
+      "projectName": "cmp129-week12-lab01"
+    },
+    {
+      "type": "java",
+      "name": "Run JavaFX Calculator (SDK, no Maven)",
+      "request": "launch",
+      "mainClass": "TrackerApp",
+      "vmArgs": "--module-path \"C:\\Users\\astudillori.danie\\Downloads\\openjfx-27.0.1_windows-x64_bin-sdk\\javafx-sdk-27.0.1\\lib\" --add-modules javafx.controls"
     }
   ]
 }
